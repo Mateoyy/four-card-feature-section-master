@@ -34,19 +34,22 @@ body {
 
 }
 
-.info p {
-	font-size: 15px;
-	margin-top: 15px;
-}
+
 
 .title p {
 	font-size: 24px;
-	font-weight: lighter;
+	font-weight: 00;
 }
 
 .title h2 {
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 600;
+}
+
+.title-text p {
+	font-size: 15px;
+	margin-top: 15px;
+    opacity: 50%;
 }
 
 .cards-info {
@@ -76,11 +79,13 @@ body {
 .supervisor h2 {
 	margin: 20px;
 	font-size: 20px;
+    font-weight: 600;
 }
 
 .supervisor p {
 	margin: 0px 20px;
 	font-size: 13px;
+    opacity: 50%;
 }
 
 .team-builder {
@@ -90,11 +95,13 @@ body {
 .team-builder h2 {
 	margin: 20px;
 	font-size: 20px;
+    font-weight: 600;
 }
 
 .team-builder p {
 	margin: 0px 20px;
 	font-size: 13px;
+    opacity: 50%;
 }
 
 .karma {
@@ -104,11 +111,13 @@ body {
 .karma h2 {
 	margin: 20px;
 	font-size: 20px;
+    font-weight: 600;
 }
 
 .karma p {
 	margin: 0px 20px;
 	font-size: 13px;
+    opacity: 50%;
 }
 
 .calculator {
@@ -118,11 +127,13 @@ body {
 .calculator h2 {
 	margin: 20px;
 	font-size: 20px;
+    font-weight: 600;
 }
 
 .calculator p {
 	margin: 0px 20px;
 	font-size: 13px;
+    opacity: 50%;
 }
 
 img {
@@ -167,7 +178,7 @@ img {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		grid-template-rows: repeat(5, 1fr);
-		gap: 20px;
+		gap: 30px;
 		margin: 0 auto;
 		padding: 20px;
 		align-items: start;
